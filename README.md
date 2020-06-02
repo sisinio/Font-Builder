@@ -1,32 +1,32 @@
-# @sw/font-build
+# @sisinio/font-build
 
 Goal: Build the Material Design Icons SVG icons to a webfont.
 
-Most notably this generates `@sw/font`, but is written to allow others to add custom icons or tweak the output.
+Most notably this generates `@sisinio/font`, but is written to allow others to add custom icons or tweak the output.
 
 ## CLI
 
-By installing `@sw/font-build` globally one can generate their own webfont build.
+By installing `@sisinio/font-build` globally one can generate their own webfont build.
 
 ```bash
 # Install Globally
-npm install -g @sw/font-build
+npm install -g @sisinio/font-build
 # Reads config from font-build.json
 font-build
 ```
 
-You can instal `@sw/font-build` localy in you project 
+You can instal `@sisinio/font-build` localy in you project 
 ```bash
 # Install Globally
-npm install --save-dev @sw/font-build
+npm install --save-dev @sisinio/font-build
 # add your npm build script
 # ./node_modules/.bin/font-build
 ```
-> To run without installing use `npx @sw/font-build`
+> To run without installing use `npx @sisinio/font-build`
 
 ### Input
 
-Any version of `@sw/svg` v3.9.95+ will work with no changes. For earlier versions copy the `font-build.json` and update the `version: { major: 3, minor: 9, patch: 95 }` values.
+Any version of `@sisinio/svg` v3.9.95+ will work with no changes. For earlier versions copy the `font-build.json` and update the `version: { major: 3, minor: 9, patch: 95 }` values.
 
 Download from [MaterialDesign-SVG](https://github.com/Templarian/MaterialDesign-SVG)
 
@@ -65,7 +65,7 @@ svg/
 
 ### Output
 
-The output is essentially the `@sw/font` package that is released to NPM and the CDN after every release. These are built to target IE11+.
+The output is essentially the `@sisinio/font` package that is released to NPM and the CDN after every release. These are built to target IE11+.
 
 ```text
 dist/

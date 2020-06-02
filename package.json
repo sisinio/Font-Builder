@@ -1,5 +1,5 @@
 {
-  "name": "@sw/font-build",
+  "name": "@sisinio/font-builder",
   "version": "2.0.0",
   "description": "Material Design Icons webfont builder.",
   "main": "index.js",
