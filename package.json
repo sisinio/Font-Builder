@@ -1,6 +1,6 @@
 {
-  "name": "@mdi/font-build",
-  "version": "1.8.4",
+  "name": "@sw/font-build",
+  "version": "2.0.0",
   "description": "Material Design Icons webfont builder.",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Templarian/MaterialDesign-Font-Build.git"
+    "url": "https://github.com/sisinio/Font-Builder.git"
   },
-  "author": "Austin Andrews (@Templarian)",
+  "contributors": [
+    "Austin Andrews (@Templarian)",
+    "Sisinio Wegher"
+  ],
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.12.0",
