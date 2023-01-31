@@ -21,6 +21,6 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "webfont": "^11.2.26",
-    "yargs": "^17.4.0"
+    "yargs": "^17.6.2"
   }
 }
