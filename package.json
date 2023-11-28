@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^7.0.1",
+    "node-sass": "^7.0.2",
     "webfont": "^11.2.26",
     "yargs": "^17.4.0"
   }
