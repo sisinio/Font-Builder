@@ -2,7 +2,7 @@
 
 const yargs = require('yargs');
 const webfont = require("webfont").default;
-const sass = require('node-sass');
+const sass = require('sass');
 const fs = require('fs');
 const path = require('path');
 const { getUnicode, getVersion, renameIcon, stringHtmlReplace, stringHtmlSvgReplace, stringScssReplace } = require('./utils.js');
